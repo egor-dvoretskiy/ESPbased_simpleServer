@@ -90,10 +90,10 @@ public class MainActivity extends AppCompatActivity {
 
     private class ScanIpTask extends AsyncTask<Void, String, Void>
     {
-        static final String subnet = "192.168.43.";
-        static final int lower = 200;
-        static final int upper = 210;
-        static final int timeout = 100;
+        static final String subnet = "192.168.1.";
+        static final int lower = 1;
+        static final int upper = 255;
+        static final int timeout = 20;
 
 
         @Override
