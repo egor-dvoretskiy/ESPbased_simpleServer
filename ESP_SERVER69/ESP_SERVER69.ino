@@ -1,15 +1,19 @@
-/*
- *  This sketch demonstrates how to scan WiFi networks. 
- *  The API is almost the same as with the WiFi Shield library, 
- *  the most obvious difference being the different file you need to include:
- */
+#include <WiFiUdp.h>
 #include "ESP8266WiFi.h"
+#include <Ethernet2.h>
 
-const char *essid = "OnePlus 5";
+WiFiUDP Udp;
+
+const char *essid = "Imp";
 const char *key = "Braindead6233";
+
+const char *remIp = "192.168.1.66";
+int remPort = 25066;
 
 const int INNER_LED = 2;
 const int timeCheck = 5000; // ms
+
+char  replyPacket[] = "Hi there! Got the message :-)";
 
 void setup() {
   Serial.begin(115200);
@@ -20,6 +24,7 @@ void setup() {
   WiFi.hostname("esp_server69");
   WiFi.begin(essid,key);
   
+  Serial.println("\n");
   Serial.print("Connecting");  
   
   while (WiFi.status() != WL_CONNECTED)
@@ -40,7 +45,12 @@ void setup() {
   Serial.print("Gateway IP: ");           
   Serial.println(WiFi.gatewayIP());
 
+  Serial.print("MAC: ");
+  Serial.println(WiFi.macAddress());
+
   Serial.println("---------");
+
+  
 }
 
 void loop() {
@@ -55,6 +65,10 @@ void loop() {
     WiFi.begin(essid,key);
     digitalWrite(INNER_LED, HIGH);
   }
+
+  Udp.beginPacket(remIp, remPort);
+  Udp.write(replyPacket);
+   Udp.endPacket();
 
   delay(timeCheck);  
 }
