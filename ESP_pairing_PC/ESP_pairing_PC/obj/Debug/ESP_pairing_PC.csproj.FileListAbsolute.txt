@@ -1,0 +1,15 @@
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.exe.config
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.exe
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.pdb
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.csprojAssemblyReference.cache
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\MainWindow.g.cs
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\App.g.cs
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC_MarkupCompile.cache
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC_MarkupCompile.lref
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\MainWindow.baml
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.g.resources
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.Properties.Resources.resources
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.csproj.GenerateResource.cache
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.csproj.CoreCompileInputs.cache
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.exe
+D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.pdb
