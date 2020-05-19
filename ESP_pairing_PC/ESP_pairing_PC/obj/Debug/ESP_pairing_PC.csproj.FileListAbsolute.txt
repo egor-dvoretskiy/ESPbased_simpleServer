@@ -1,7 +1,6 @@
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.exe.config
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.exe
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\bin\Debug\ESP_pairing_PC.pdb
-D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC.csprojAssemblyReference.cache
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\MainWindow.g.cs
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\App.g.cs
 D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\ESP_pairing_PC_MarkupCompile.cache

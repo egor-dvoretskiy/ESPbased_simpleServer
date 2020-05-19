@@ -5,17 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ESP_pairing_PC"
         mc:Ignorable="d" Height="400" Width="300" ResizeMode="NoResize" Topmost="True" WindowStyle="ToolWindow" ShowInTaskbar="False">
-    <StackPanel>
-        <Grid Height="30">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
             <Button Content="Minimize" x:Name="btn_minimize" Grid.Column="1" Margin="5,5,5,5" BorderThickness="0" Click="Btn_minimize_Click"/>
+            <Button Content="click-cluck" x:Name="btn_test" Grid.Column="0" Margin="5,5,5,5" BorderThickness="0" Click="Btn_test_Click"/>
         </Grid>
-        <Grid>
-            
+        <Grid Grid.Row="1" Background="#FFEAE1E1">
+
         </Grid>
-    </StackPanel>
+        <Grid Grid.Row="2">
+
+        </Grid>
+        <Grid Grid.Row="3" Background="#FFEAE1E1">
+
+        </Grid>
+    </Grid>
 </Window>
