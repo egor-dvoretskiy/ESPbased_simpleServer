@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\
+D:\_workspace_C++\Cs\esp\ESP_pairing_PC\ESP_pairing_PC\obj\Debug\
 ESP_pairing_PC
 none
 false
 DEBUG;TRACE
-D:\_workspaceAndroid\espServer_git\ESP_pairing_PC\ESP_pairing_PC\App.xaml
+D:\_workspace_C++\Cs\esp\ESP_pairing_PC\ESP_pairing_PC\App.xaml
 11151548125
 
-6894743606
+7140173822
 161789015212
 MainWindow.xaml;
 
-False
+True
 
